@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charith Edirimanne - Personal Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 30px;
+            background-color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+
+        header,
+        section,
+        footer {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        header {
+            background-color: #78ad5e;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 17px;
+        }
+
+        section {
+            background-color: white;
+            margin-top: 18px;
+            padding: 25px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-left: 5px solid #78ad5e;
+            padding-left: 10px;
+        }
+
+        section p {
+            line-height: 1.7;
+        }
+
+        ul {
+            line-height: 2;
+            padding-left: 25px;
+        }
+
+        li::marker {
+            color: #78ad5e;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th {
+            background-color: #78ad5e;
+            color: white;
+            padding: 14px;
+            text-align: left;
+        }
+
+        td {
+            padding: 14px;
+            border: 1px solid #ddd;
+            line-height: 1.5;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+
+        tr:hover {
+            background-color: #edf6e9;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-bottom: 18px;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #78ad5e;
+            box-shadow: 0 0 4px rgba(120, 173, 94, 0.4);
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #78ad5e;
+            color: white;
+            border: none;
+            padding: 11px 22px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: #63994c;
+        }
+
+        footer {
+            background-color: #78ad5e;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 18px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        footer p {
+            margin: 8px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            header p {
+                font-size: 14px;
+            }
+
+            section {
+                padding: 18px;
+            }
+
+            table {
+                font-size: 13px;
+            }
+
+            th,
+            td {
+                padding: 9px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Charith Edirimanne</h1>
+        <p>Undergraduate Student | Technology Enthusiast | Future Software Developer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am an undergraduate student with an interest in Information Technology,
+            programming, web development, and software engineering. I enjoy learning
+            new technologies and developing my knowledge through practical work and
+            academic projects.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>C Programming</li>
+            <li>HTML</li>
+            <li>Problem Solving</li>
+            <li>GitHub</li>
+            <li>Basic Web Development</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Technology Used</th>
+            </tr>
+            <tr>
+                <td>Government Officer Salary Calculator</td>
+                <td>
+                    A program designed to calculate salary, allowances,
+                    overtime, EPF and tax deductions.
+                </td>
+                <td>C Programming</td>
+            </tr>
+            <tr>
+                <td>Even or Odd Number Checker</td>
+                <td>
+                    A simple program that checks whether a given number
+                    is even or odd.
+                </td>
+                <td>C Programming</td>
+            </tr>
+            <tr>
+                <td>Personal Portfolio Website</td>
+                <td>
+                    A personal webpage containing information about myself,
+                    my skills and my projects.
+                </td>
+                <td>HTML</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://github.com/charithedirimanne-glitch/-FullSatck-fundamental-Project.git" target="_blank">GitHub</a>
+        <p>&copy; 2026 Charith Edirimanne. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
